@@ -1,0 +1,38 @@
+{
+  "name": "redux-snippet",
+  "description": "A basic redux snippet to get ya started",
+  "author": "Ron Gierlach <ron@theuprisingcreative.com> (http://youfoundron.com)",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongierlach/redux-snippet.git"
+  },
+  "keywords": [
+    "redux",
+    "basic",
+    "example",
+    "snippet",
+    "boilerplate",
+    "react",
+    "babel",
+    "es6",
+    "webpack"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rongieralch/redux-snippet/issues"
+  },
+  "homepage": "https;//github.com/rongierlach/redux-snippet",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
